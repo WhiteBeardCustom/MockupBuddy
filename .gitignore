@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build output
+build/
+dist/
+*.egg-info/
+*.app
+*.exe
+*.tar.gz
+*.whl
+
+# Environments
+venv*/
+.env/
+.venv/
+
+# OS Junk
+.DS_Store
+Thumbs.db
+
+# IDE/Editor
+.vscode/
+.idea/
+*.code-workspace

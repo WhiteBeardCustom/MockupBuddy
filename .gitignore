@@ -1,6 +1,7 @@
 # Python virtual environments
 venv/
 cleanenv/
+venv311/
 
 # macOS junk
 .DS_Store

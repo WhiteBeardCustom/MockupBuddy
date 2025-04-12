@@ -1,0 +1,26 @@
+# Python virtual environments
+venv/
+cleanenv/
+
+# macOS junk
+.DS_Store
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Build artifacts
+build/
+dist/
+*.dmg
+*.zip
+*.exe
+
+# VS Code and logs
+.vscode/
+*.log
+
+# App Bundles
+*.app

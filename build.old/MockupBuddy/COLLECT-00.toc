@@ -1,0 +1,104 @@
+([('MockupBuddy.exe',
+   'C:\\Users\\Nick Trautman\\OneDrive - White Beard Custom '
+   'LLC\\Projects\\MockupBuddy-PySide6\\build\\MockupBuddy\\MockupBuddy.exe',
+   'EXECUTABLE'),
+  ('python311.dll',
+   'C:\\Users\\Nick '
+   'Trautman\\AppData\\Local\\Programs\\Python\\Python311\\python311.dll',
+   'BINARY'),
+  ('_decimal.pyd',
+   'C:\\Users\\Nick '
+   'Trautman\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\Nick '
+   'Trautman\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\Nick '
+   'Trautman\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Users\\Nick '
+   'Trautman\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\Nick '
+   'Trautman\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\Nick '
+   'Trautman\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\Nick '
+   'Trautman\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('PIL\\_webp.cp311-win_amd64.pyd',
+   'C:\\Users\\Nick Trautman\\OneDrive - White Beard Custom '
+   'LLC\\Projects\\MockupBuddy-PySide6\\venv311\\Lib\\site-packages\\PIL\\_webp.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingtk.cp311-win_amd64.pyd',
+   'C:\\Users\\Nick Trautman\\OneDrive - White Beard Custom '
+   'LLC\\Projects\\MockupBuddy-PySide6\\venv311\\Lib\\site-packages\\PIL\\_imagingtk.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingcms.cp311-win_amd64.pyd',
+   'C:\\Users\\Nick Trautman\\OneDrive - White Beard Custom '
+   'LLC\\Projects\\MockupBuddy-PySide6\\venv311\\Lib\\site-packages\\PIL\\_imagingcms.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingmath.cp311-win_amd64.pyd',
+   'C:\\Users\\Nick Trautman\\OneDrive - White Beard Custom '
+   'LLC\\Projects\\MockupBuddy-PySide6\\venv311\\Lib\\site-packages\\PIL\\_imagingmath.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'C:\\Users\\Nick '
+   'Trautman\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\Nick '
+   'Trautman\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\Nick '
+   'Trautman\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('PIL\\_imaging.cp311-win_amd64.pyd',
+   'C:\\Users\\Nick Trautman\\OneDrive - White Beard Custom '
+   'LLC\\Projects\\MockupBuddy-PySide6\\venv311\\Lib\\site-packages\\PIL\\_imaging.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\Nick '
+   'Trautman\\AppData\\Local\\Programs\\Python\\Python311\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Users\\Nick '
+   'Trautman\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libssl-3.dll',
+   'C:\\Users\\Nick '
+   'Trautman\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libssl-3.dll',
+   'BINARY'),
+  ('assets\\MockupBuddyDesktop.icns',
+   'C:\\Users\\Nick Trautman\\OneDrive - White Beard Custom '
+   'LLC\\Projects\\MockupBuddy-PySide6\\src\\assets\\MockupBuddyDesktop.icns',
+   'DATA'),
+  ('assets\\MockupBuddyDesktop.ico',
+   'C:\\Users\\Nick Trautman\\OneDrive - White Beard Custom '
+   'LLC\\Projects\\MockupBuddy-PySide6\\src\\assets\\MockupBuddyDesktop.ico',
+   'DATA'),
+  ('assets\\MockupBuddyDesktopLogo.png',
+   'C:\\Users\\Nick Trautman\\OneDrive - White Beard Custom '
+   'LLC\\Projects\\MockupBuddy-PySide6\\src\\assets\\MockupBuddyDesktopLogo.png',
+   'DATA'),
+  ('assets\\bmc-button.png',
+   'C:\\Users\\Nick Trautman\\OneDrive - White Beard Custom '
+   'LLC\\Projects\\MockupBuddy-PySide6\\src\\assets\\bmc-button.png',
+   'DATA'),
+  ('assets\\bmcNT.png',
+   'C:\\Users\\Nick Trautman\\OneDrive - White Beard Custom '
+   'LLC\\Projects\\MockupBuddy-PySide6\\src\\assets\\bmcNT.png',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\Users\\Nick Trautman\\OneDrive - White Beard Custom '
+   'LLC\\Projects\\MockupBuddy-PySide6\\build\\MockupBuddy\\base_library.zip',
+   'DATA')],)

@@ -1,31 +1,26 @@
-; Installer script for MockupBuddy v0.8.1
-
 [Setup]
 AppName=MockupBuddy
 AppVersion=0.8.1
-AppPublisher=White Beard Custom, LLC
-AppPublisherURL=https://mockupbuddypro.com
-AppSupportURL=https://mockupbuddypro.com/support
-AppUpdatesURL=https://mockupbuddypro.com/downloads
-AppID=MockupBuddy
 DefaultDirName={pf}\MockupBuddy
 DefaultGroupName=MockupBuddy
-UninstallDisplayIcon={app}\MockupBuddy_PySide6_v0.8.1.exe
-Compression=lzma2
+OutputDir=Output
+OutputBaseFilename=MockupBuddyInstaller
+Compression=lzma
 SolidCompression=yes
-OutputBaseFilename=MockupBuddy_Installer_v0.8.1
-DisableProgramGroupPage=yes
-SetupIconFile=.\src\assets\MockupBuddyDesktop.ico
-LicenseFile=license.txt
-ArchitecturesInstallIn64BitMode=x64
-WizardStyle=modern
 
 [Files]
-Source: "dist\MockupBuddy_PySide6_v0.8.1\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "dist\MockupBuddy.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "dist\MockupBuddy.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "dist\*.png"; DestDir: "{app}\images"; Flags: ignoreversion
+Source: "LICENSE"; DestDir: "{app}"; Flags: ignoreversion
+Source: "README.md"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
-Name: "{group}\MockupBuddy"; Filename: "{app}\MockupBuddy_PySide6_v0.8.1.exe"
-Name: "{userdesktop}\MockupBuddy"; Filename: "{app}\MockupBuddy_PySide6_v0.8.1.exe"; Tasks: desktopicon
+Name: "{group}\{cm:LaunchApplication,MockupBuddy}"; Filename: "{app}\MockupBuddy.exe"
+Name: "{group}\{cm:UninstallProgram,MockupBuddy}"; Filename: "{un}\MockupBuddyInstaller.exe"
 
-[Tasks]
-Name: "desktopicon"; Description: "Create a &desktop shortcut"; GroupDescription: "Additional icons:"
+[Run]
+Filename: "{app}\MockupBuddy.exe"; Description: "{cm:LaunchApplication,MockupBuddy}"; Flags: nowait postinstall skipifsilent
+
+[UninstallRun]
+Filename: "{app}\MockupBuddy.exe"; Flags: nowait postuninstall skipifsilent

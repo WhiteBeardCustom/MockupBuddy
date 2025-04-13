@@ -22,4 +22,4 @@ Name: "{group}\{cm:LaunchApplication,MockupBuddy}"; Filename: "{app}\MockupBuddy
 Filename: "{app}\MockupBuddy.exe"; Description: "{cm:LaunchApplication,MockupBuddy}"; Flags: nowait postinstall skipifsilent
 
 [UninstallRun]
-Filename: "{app}\MockupBuddy.exe"; Flags: nowait postuninstall skipifsilent
+Filename: "{app}\MockupBuddy.exe"; Flags: nowait skipifsilent

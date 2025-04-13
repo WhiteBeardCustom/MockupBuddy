@@ -13,5 +13,9 @@ MockupBuddy is a lightweight desktop app for batch-generating apparel mockups us
 - Batch generation with organized output folders
 - “Buy Me a Coffee” integration for donations
 
+
+## 📘 Documentation
+Need help using the app? Check out the full [User Guide](UserGuide.md) for step-by-step instructions, advanced features, and troubleshooting tips.
+
 ## License
 MIT

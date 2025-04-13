@@ -7,6 +7,10 @@ OutputDir=Output
 OutputBaseFilename=MockupBuddyInstaller
 Compression=lzma
 SolidCompression=yes
+WizardStyle=modern
+LicenseFile=LICENSE
+SetupIconFile=src\assets\MockupBuddyDesktop.ico
+DisableProgramGroupPage=yes
 
 [Files]
 Source: "dist\MockupBuddy_PySide6_v0.8.1\MockupBuddy_PySide6_v0.8.1.exe"; DestDir: "{app}"; Flags: ignoreversion

@@ -8,7 +8,8 @@ DATA_FILES = [
     ('assets', [
         'src/assets/bmcNT.png',
         'src/assets/MockupBuddyDesktop.icns'
-    ])
+    ]),
+    ('', ['RELEASE_NOTES.md', 'LICENSE'])
 ]
 
 OPTIONS = {

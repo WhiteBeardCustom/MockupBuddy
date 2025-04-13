@@ -17,7 +17,6 @@ Source: "README.md"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
 Name: "{group}\{cm:LaunchApplication,MockupBuddy}"; Filename: "{app}\MockupBuddy.exe"
-Name: "{group}\{cm:UninstallProgram,MockupBuddy}"; Filename: "{un}\MockupBuddyInstaller.exe"
 
 [Run]
 Filename: "{app}\MockupBuddy.exe"; Description: "{cm:LaunchApplication,MockupBuddy}"; Flags: nowait postinstall skipifsilent

@@ -1,0 +1,5 @@
+# requirements.txt
+setuptools==68.2.2
+py2app
+PySide6
+Pillow

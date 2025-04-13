@@ -15,9 +15,9 @@ Source: "LICENSE"; DestDir: "{app}"; Flags: ignoreversion
 Source: "README.md"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
-Name: "{group}\{cm:LaunchApplication,MockupBuddy}"; Filename: "{app}\MockupBuddy_PySide6_v0.8.1.exe"
+Name: "{group}\MockupBuddy"; Filename: "{app}\MockupBuddy_PySide6_v0.8.1.exe"
 
 [Run]
-Filename: "{app}\MockupBuddy_PySide6_v0.8.1.exe"; Description: "{cm:LaunchApplication,MockupBuddy}"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\MockupBuddy_PySide6_v0.8.1.exe"; Description: "Launch MockupBuddy"; Flags: nowait postinstall skipifsilent
 
 [UninstallRun]

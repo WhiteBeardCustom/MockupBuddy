@@ -10,7 +10,6 @@ SolidCompression=yes
 
 [Files]
 Source: "dist\MockupBuddy_PySide6_v0.8.1\MockupBuddy_PySide6_v0.8.1.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "dist\MockupBuddy_PySide6_v0.8.1\MockupBuddy.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "dist\MockupBuddy_PySide6_v0.8.1\*.png"; DestDir: "{app}\images"; Flags: ignoreversion
 Source: "LICENSE"; DestDir: "{app}"; Flags: ignoreversion
 Source: "README.md"; DestDir: "{app}"; Flags: ignoreversion

@@ -9,16 +9,16 @@ Compression=lzma
 SolidCompression=yes
 
 [Files]
-Source: "dist\MockupBuddy_PySide6_v0.8.1\MockupBuddy.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "dist\MockupBuddy_PySide6_v0.8.1\MockupBuddy_PySide6_v0.8.1.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "dist\MockupBuddy_PySide6_v0.8.1\MockupBuddy.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "dist\MockupBuddy_PySide6_v0.8.1\*.png"; DestDir: "{app}\images"; Flags: ignoreversion
 Source: "LICENSE"; DestDir: "{app}"; Flags: ignoreversion
 Source: "README.md"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
-Name: "{group}\{cm:LaunchApplication,MockupBuddy}"; Filename: "{app}\MockupBuddy.exe"
+Name: "{group}\{cm:LaunchApplication,MockupBuddy}"; Filename: "{app}\MockupBuddy_PySide6_v0.8.1.exe"
 
 [Run]
-Filename: "{app}\MockupBuddy.exe"; Description: "{cm:LaunchApplication,MockupBuddy}"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\MockupBuddy_PySide6_v0.8.1.exe"; Description: "{cm:LaunchApplication,MockupBuddy}"; Flags: nowait postinstall skipifsilent
 
 [UninstallRun]
